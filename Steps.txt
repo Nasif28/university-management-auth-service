@@ -1,13 +1,26 @@
+Project Setup ------------------
 npm init
 yarn add -D typescript
 yarn add express
+yarn add -D @types/express
 yarn add mongoose
 tsc --init
 yarn add dotenv
+yarn add ts-node-dev --dev
+yarn add cors
+yarn add -D @types/cors
+yarn start
+Git -----------------------------
+git checkout -b UM-2
+git push origin UM-2
+git checkout -b UM-3
+git push origin UM-3
 
-
-
-
+package.json:-
+"scripts": {
+  "start": "ts-node-dev --respawn --transpile-only src/server.ts",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
 
 
 
