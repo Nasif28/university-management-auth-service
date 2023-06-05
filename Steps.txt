@@ -1,0 +1,26 @@
+npm init
+yarn add -D typescript
+yarn add express
+yarn add mongoose
+tsc --init
+yarn add dotenv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
